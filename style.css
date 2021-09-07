@@ -1,0 +1,35 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: rgb(63,252, 63);
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background: rgb(22,22,22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: rgb(63,252,63) 10px solid;
+}
+/*creating the class for our animation which we will add after Javascript.*/
+.animate{
+    border: rgb(245, 39, 32) 10px solid;
+}
+
+/*styling the time*/
+.container h1{
+    font-weight: 900px;
+    font-size: 60px;
+}
